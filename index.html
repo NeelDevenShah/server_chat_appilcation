@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I-chat Real Time Node Socket.io Chat App</title>
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body class="body">
+    <nav>
+        <img class="logo" src="WhatsApp.png"></img>  
+    </nav>
+    <div class="main">
+        <div class="slogan">Live Chating</div>
+        <hr/>
+        <div class="container">
+            <div class="message right d-flex justify-content-start">Neel: How are you Harry??</div>
+            <div class="message left">Harry: I am fine neel how are you</div>
+    </div>
+    </div>
+    <div class="send">
+        <form action="#" id="send-container">
+            <input type="text" class="sendInpt" name="messageInp" id="messageInp">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>
